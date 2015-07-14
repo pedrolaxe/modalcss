@@ -1,5 +1,5 @@
-# modalcss
-Modal Pure CSS
+# Responsive Pure CSS Modal
+Totally responsive!
 
 To open modal, simply create a link with (href) to the div ID 'modal'.
 
