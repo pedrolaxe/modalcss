@@ -8,4 +8,4 @@ Example:
 <a href="#modal">Open Modal CSS</a>
 ```
 ### Version
-1.0
+1.0.1
