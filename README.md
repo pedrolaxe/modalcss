@@ -9,3 +9,7 @@ Example:
 ```
 ### Version
 1.0.1
+
+### Live Demo
+http://pedrolaxe.github.io/modalcss/
+
