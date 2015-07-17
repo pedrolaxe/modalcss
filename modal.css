@@ -61,6 +61,14 @@
 	color: #333333;
 	text-decoration: none;
 }
+/* Responsive Options */
+@media screen and (min-width: 768px) {
+	#modal{
+		width:600px;
+		margin:-250px 0px 0px -18.2%;
+		top: -50%;
+	}
+}
 .modalcss-button {
     /* Structure */
     display: inline-block;
