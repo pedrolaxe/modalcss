@@ -3,4 +3,5 @@ Initial Release
 
 ### 1.0.1 - 16.07.2015
 Adding Buttons Pure CSS
+
 Added Minify CSS version
