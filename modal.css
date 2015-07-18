@@ -17,23 +17,23 @@
 	top: 50%;
 	visibility: visible
 }
-#modal .header, #modal .footer {
+.modal .header, .modal .footer {
 	border-bottom: 1px solid #e7e7e7;
 	border-radius: 5px 5px 0 0
 }
-#modal .footer {
+.modal .footer {
 	border: none;
 	border-top: 1px solid #e7e7e7;
 	border-radius: 0 0 5px 5px
 }
-#modal h2 {
+.modal h2 {
 	margin: 0;
 	color: #333333
 }
-#modal .btn {
+.modal .btn {
 	float: right
 }
-#modal .copy, #modal .header, #modal .footer {
+.modal .copy, .modal .header, .modal .footer {
 	padding: 5px;
 	color: #333333
 }
@@ -44,10 +44,10 @@
 	border-radius: 5px;
 	color: #333333
 }
-#modal .copy {
+.modal .copy {
 	background: #fff
 }
-#modal .overlay {
+.modal .overlay {
 	background-color: #000;
 	background: rgba(0,0,0,.8);
 	height: 100%;
@@ -63,7 +63,7 @@
 }
 /* Responsive Options */
 @media screen and (min-width: 768px) {
-	#modal{
+	.modal{
 		width:600px;
 		margin:-250px 0px 0px -18.2%;
 		top: -50%;
