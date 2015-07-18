@@ -9,7 +9,7 @@ Example:
 <a href="#modal_N" class="modal">Open Modal_N CSS</a>
 ```
 ### Version
-1.0.1
+1.0.2
 
 ### Live Demo
 http://pedrolaxe.github.io/modalcss/
