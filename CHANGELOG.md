@@ -5,3 +5,8 @@ Initial Release
 Adding Buttons Pure CSS
 
 Added Minify CSS version
+
+### 1.0.2 - 17.07.2015
+Added Support for others Modals - Thanks mlpassos
+
+Fix Overlay Bug in IE
