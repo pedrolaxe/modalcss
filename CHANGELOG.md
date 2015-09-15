@@ -10,3 +10,6 @@ Added Minify CSS version
 Added Support for others Modals - Thanks mlpassos
 
 Fix Overlay Bug in IE
+
+### 1.0.3 - 15.09.2015
+Added Support for videos

@@ -7,9 +7,10 @@ Example:
 ```sh
 <a href="#modal" class="modal">Open Modal CSS</a>
 <a href="#modal_N" class="modal">Open Modal_N CSS</a>
+<a href="#modal_N" class="modal">Open Modal_Video CSS</a>
 ```
 ### Version
-1.0.2
+1.0.3
 
 ### Live Demo
 http://pedrolaxe.github.io/modalcss/
