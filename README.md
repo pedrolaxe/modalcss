@@ -17,9 +17,10 @@ To add support for responsive videos in his modal, add a div with class "video",
 ```
 **Supports**
 Youtube,Vimeo and Others.
+Close with Escape Key
 
 ### Version
-1.0.3
+1.0.4
 
 ### Live Demo
 http://pedrolaxe.github.io/modalcss/
