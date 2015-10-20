@@ -15,6 +15,13 @@
     <![endif]-->
 
     <title>Modalcss by pedrolaxe</title>
+    <script>
+window.onkeydown = function( event ) {
+    if ( event.keyCode === 27 ) {
+		document.getElementById('close').click();  
+    }
+};
+</script>
   </head>
 
   <body>
@@ -85,7 +92,7 @@
       </div>
     </div>
 
- <div id="popup" class='modal'>
+ <div id="popup" class='modal' role="dialog" aria-labelledby="Modal title" aria-describedby="Modal description">
 		<div class="modal-content">
 			<div class="header">
 				<h2>Projects</h2>
@@ -93,13 +100,13 @@
 			</div>
 			<div class="copy">
 				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</p>
-			<a href="#" class="modalcss-button button-secondary">Close</a> <a href="#popup_N" class="modalcss-button">Open New Modal</a>
+			<a href="#" id="close" class="modalcss-button button-secondary">Close</a> <a href="#popup_N" class="modalcss-button">Open New Modal</a>
             </div>
 		</div>
 		<a href="#"><div class="overlay"></div></a>
 </div>
 
-<div id="popup_N" class='modal'>
+<div id="popup_N" class='modal' role="dialog" aria-labelledby="Modal title" aria-describedby="Modal description">
 		<div class="modal-content">
 			<div class="header">
 				<h2>Modal #N</h2>
@@ -107,12 +114,12 @@
 			</div>
 			<div class="copy">
 				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</p>
-			<a href="#" class="modalcss-button button-secondary">Close</a>
+			<a href="#" id="close" class="modalcss-button button-secondary">Close</a>
             </div>
 		</div>
 		<a href="#"><div class="overlay"></div></a>
 </div>
-<div id="popup_video" class='modal'>
+<div id="popup_video" class='modal' role="dialog" aria-labelledby="Modal title" aria-describedby="Modal description">
 		<div class="modal-content">
 			<div class="header">
 				<h2>Modal Video</h2>
@@ -123,7 +130,7 @@
                 	<iframe width="560" height="315" src="https://www.youtube.com/embed/3gxNW2Ulpwk" frameborder="0"></iframe>
                 </div>
                 <br>
-			<a href="#" class="modalcss-button button-secondary">Close</a>
+			<a href="#" id="close" class="modalcss-button button-secondary">Close</a>
             </div>
 		</div>
 		<a href="#"><div class="overlay"></div></a>
