@@ -13,3 +13,6 @@ Fix Overlay Bug in IE
 
 ### 1.0.3 - 15.09.2015
 Added Support for videos
+
+### 1.0.4 - 20.10.2015
+Close Modal with Escape Key and ARIA atributtes - thanks @brunopulis
