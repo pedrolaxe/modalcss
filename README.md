@@ -13,7 +13,7 @@ Example:
 To add support for responsive videos in his modal, add a div with class "video", and put the iframe in your video, like this:
 ```sh
 <div class="video">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3gxNW2Ulpwk" frameborder="0"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/loD9nLUIQLU" frameborder="0"></iframe>
 </div>
 ```
 **Supports**
@@ -21,7 +21,7 @@ Youtube,Vimeo and Others.
 Close with Escape Key
 
 ### Version
-1.0.4
+1.0.5
 
 ### Live Demo
 http://pedrolaxe.github.io/modalcss/

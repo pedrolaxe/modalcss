@@ -16,3 +16,6 @@ Added Support for videos
 
 ### 1.0.4 - 20.10.2015
 Close Modal with Escape Key and ARIA atributtes - thanks @brunopulis
+
+### 1.0.5 - 19.02.2016
+Fix Bugs in CSS File and Escape Key in Microsoft Edge

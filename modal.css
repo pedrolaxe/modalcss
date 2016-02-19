@@ -1,7 +1,7 @@
 /**
-* modal.min.css
+* modal.css
 * Author: Pedro Laxe
-* Version: 1.0.4
+* Version: 1.0.5
 * License: GPLv2
 **/
 .modal {
@@ -12,46 +12,46 @@
 	top: -50%;
 	visibility: hidden;
 	width: 65%;
-	box-shadow: 0 3px 7px rgba(0,0,0,.25);
+	box-shadow: 0 3px 3px rgba(0,0,0,.25);
 	box-sizing: border-box;
 	transition: all .4s ease-in-out;
 	-moz-transition: all .4s ease-in-out;
-	-webkit-transition: all .4s ease-in-out
+	-webkit-transition: all .4s ease-in-out;
 }
 .modal:target {
 	opacity: 1;
 	top: 50%;
-	visibility: visible
+	visibility: visible;
 }
 .modal .header, .modal .footer {
 	border-bottom: 1px solid #e7e7e7;
-	border-radius: 5px 5px 0 0
+	border-radius: 5px 5px 0 0;
 }
 .modal .footer {
 	border: none;
 	border-top: 1px solid #e7e7e7;
-	border-radius: 0 0 5px 5px
+	border-radius: 0 0 5px 5px;
 }
 .modal h2 {
 	margin: 0;
-	color: #333333
+	color: #333333;
 }
 .modal .btn {
-	float: right
+	float: right;
 }
 .modal .copy, .modal .header, .modal .footer {
 	padding: 5px;
-	color: #333333
+	color: #333333;
 }
 .modal-content {
 	background: #f7f7f7;
 	position: relative;
 	z-index: 20;
 	border-radius: 5px;
-	color: #333333
+	color: #333333;
 }
 .modal .copy {
-	background: #fff
+	background: #fff;
 }
 .modal .overlay {
 	background-color: #000;
@@ -61,7 +61,7 @@
 	position: fixed;
 	top: 0;
 	width: 100%;
-	z-index: 10
+	z-index: 10;
 }
 .copy ul li a {
 	color: #333333;
@@ -197,7 +197,7 @@ a.modalcss-button-selected {
     padding-bottom: 56.25%;
     padding-top: 30px; height: 0; overflow: hidden;
 }
- 
+
 .video iframe,
 .video object,
 .video embed {
