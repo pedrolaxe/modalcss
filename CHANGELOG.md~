@@ -19,7 +19,3 @@ Close Modal with Escape Key and ARIA atributtes - thanks @brunopulis
 
 ### 1.0.5 - 19.02.2016
 Fix Bugs in CSS File and Escape Key in Microsoft Edge
-
-### 1.0.6 - 07.06.2016
-New Close Button
-Removed CSS Buttons

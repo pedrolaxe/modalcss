@@ -1,7 +1,7 @@
 /**
 * modal.css
 * Author: Pedro Laxe
-* Version: 1.0.6
+* Version: 1.0.5
 * License: GPLv2
 **/
 .modal {
@@ -197,6 +197,7 @@ a.modalcss-button-selected {
     padding-bottom: 56.25%;
     padding-top: 30px; height: 0; overflow: hidden;
 }
+
 .video iframe,
 .video object,
 .video embed {
@@ -205,21 +206,4 @@ a.modalcss-button-selected {
     left: 0;
     width: 100%;
     height: 100%;
-}
-/* Close Button */
-.box3 { 
-	width: 25px;
-	right: 0px;
-	position: absolute;
-	margin: 5px;
-}
-svg {
-	display: block;
-}
-
-.close-x {
-  stroke: black;
-  fill: transparent;
-  stroke-linecap: round;
-  stroke-width: 5;
 }
