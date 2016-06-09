@@ -1,7 +1,7 @@
 # Responsive Pure CSS Modal
 Totally responsive!
 
-To open modal, simply create a link with (href) to the div ID 'modal'.
+To open modal, simply create a link with (href) to the div ID 'modal'
 
 Example:
 ```sh
@@ -18,6 +18,7 @@ To add support for responsive videos in his modal, add a div with class "video",
 ```
 **Supports**
 Youtube,Vimeo and Others.
+
 Close with Escape Key
 
 ### Version
@@ -25,3 +26,6 @@ Close with Escape Key
 
 ### Live Demo
 http://pedrolaxe.github.io/modalcss/
+
+### Author
+Pedro Laxe
